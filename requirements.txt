@@ -1,0 +1,7 @@
+kubernetes
+fastapi[all]
+docker
+radical.pilot
+uvicorn
+pydantic
+pydantic-settings
