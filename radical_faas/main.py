@@ -9,7 +9,7 @@ from .store.metadata import init_db
 def main():
     """Initializes dependencies and starts the web server."""
     # Initialize the database before starting the web server.
-    init_db()
+    # init_db()
 
     # uvicorn is a high-performance ASGI server used to run FastAPI apps.
     # "radical_faas.api.server:app" tells uvicorn where to find the FastAPI app instance.
